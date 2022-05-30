@@ -1,6 +1,7 @@
 module github.com/athos-ribeiro/matterircd
 
 require (
+	github.com/42wim/matterircd v0.25.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f
 	github.com/google/gops v0.3.22
@@ -85,6 +86,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
 
-replace git.apache.org/thrift.git => github.com/apache/thrift v0.12.0 // indirect
+replace git.apache.org/thrift.git => github.com/apache/thrift v0.0.0-20180902110319-2566ecd5d999 // indirect
 
 go 1.17
